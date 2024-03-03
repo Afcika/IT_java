@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+  height: 400px;
+  width: 350px;
+  background-color: rgb(129, 180, 155);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+  font-family: Verdana;
+  color: white;
+}
+.inlab {
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  font-size: 700;
+}
+#submit {
+  border: none;
+  background-color: rgb(91, 59, 233);
+  border-radius: 6px;
+  color: aliceblue;
+  padding: 10px 25px;
+}
+input {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  border: none;
+  font-size: 24px;
+}
+#guessoutput {
+  width: 270px;
+  text-align: center;
+}
